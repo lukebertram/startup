@@ -1,0 +1,26 @@
+
+//hero variables
+$hero-height-default: 400px;
+$hero-height-md: 510px;
+$hero-height-lg: 666px;
+$hero-image-url: url('../img/crowd2.jpg');
+$hero-gradient: linear-gradient(rgba(0, 0, 255, 0.4), rgba(0, 0, 255, 0.4));
+
+//header variables
+$header-font-size: 2.5em;
+$header-font-color: #efefef;
+$header-bold-weight: 600;
+
+//sub-hero variables
+$sub-hero-color: #d1d7ff;
+$sub-hero-height: 200px;
+
+
+//grid variables
+$grid-columns: 12;
+$grid-max-width: 1200px;
+
+//media query breakpointsgit
+$breakpoint-small: "only screen and (min-width: 550px)";
+$breakpoint-medium: "only screen and (min-width: 768px)";
+$breakpoint-large: "only screen and (min-width: 1000px)";

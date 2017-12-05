@@ -1,1 +1,5 @@
-@import "layout/module", "components/module", "base/module";
+@import
+  "abstracts/module",
+  "layout/module",
+  "components/module",
+  "base/module";

@@ -1,0 +1,23 @@
+.hero{
+  width: 100%;
+  height: $hero-height-default;
+  background: $hero-gradient, $hero-image-url center no-repeat;
+  background-size: cover;
+}
+.sub-hero{
+  width: 100%;
+  height: $sub-hero-height;
+  background: $sub-hero-color;
+
+}
+@media #{$breakpoint-medium}{
+  .hero {
+    height: $hero-height-md;
+  }
+}
+
+@media #{$breakpoint-large}{
+  .hero {
+    height: $hero-height-lg;
+  }
+}
