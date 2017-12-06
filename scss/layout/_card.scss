@@ -1,0 +1,22 @@
+.card {
+  border: $card-border;
+  box-shadow: $card-box-shadow;
+  text-align: $card-text-align;
+  padding: 40px 25px;
+  position: relative;
+  margin-bottom: 50px;
+  h3{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 1.5em;
+  }
+  p {
+    margin: 10px 0;
+  }
+}
+
+@media #{$breakpoint-medium}{
+  .card{
+    height: $card-height;
+  }
+}

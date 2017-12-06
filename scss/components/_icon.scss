@@ -1,0 +1,22 @@
+.icon {
+  position: absolute;
+  left: 50%;
+  bottom: 100%;
+  transform: translate(-50%, 50%);
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  background-color: $sub-hero-color;
+
+  img {
+    height: auto;
+    width: 100%;
+  }
+}
+
+@media #{$breakpoint-medium}{
+  .icon{
+    height: 100px;
+    width: 100px;
+  }
+}

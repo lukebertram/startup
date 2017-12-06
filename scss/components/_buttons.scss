@@ -1,12 +1,12 @@
 button {
   text-align: center;
-  font-weight: 600;
+  font-weight: 800;
   font-size: 1.2em;
   font-family: "Open Sans";
   height: 60px;
   width: 75px;
   border: none;
-  border-radius: 10%;
+  border-radius: 10px;
   &:hover, :active {
     background: transparent;
   }

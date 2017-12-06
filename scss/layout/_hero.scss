@@ -3,12 +3,46 @@
   height: $hero-height-default;
   background: $hero-gradient, $hero-image-url center no-repeat;
   background-size: cover;
+  padding: 2em 1.5em;
+
+
+
+  .hero-content {
+    font-family: "Open Sans";
+    font-size: $hero-font-size;
+    color: $hero-font-color;
+    font-weight: $hero-bold-weight;
+    h3 {
+      font-size: 1em;
+      line-height: 1.25em;
+    }
+    p {
+      font-weight: normal;
+      font-size: 0.5em;
+    }
+  }
 }
-.sub-hero{
+
+
+.sub-hero {
+  color: $sub-hero-font-color;
   width: 100%;
   height: $sub-hero-height;
   background: $sub-hero-color;
+  margin-bottom: $universal-margin-bottom;
 
+  p {
+    text-align: center;
+    font-size: 1.5em;
+    text-shadow: 1px 2px grey;
+  }
+
+  .search-bar{
+    max-width: 480px;
+  }
+  .search-btn{
+    max-width: 140;
+  }
 }
 @media #{$breakpoint-medium}{
   .hero {

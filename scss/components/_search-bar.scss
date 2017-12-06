@@ -3,5 +3,11 @@
   font-family: "Open Sans";
   height: 60px;
   width: 275px;
-  border: 1px solid darkgray;
+  border: 2px solid white;
+  border-radius: 6px;
+  float: left;
+
+}
+.search-btn{
+  float: right;
 }

@@ -1,3 +1,5 @@
+//universal bottom margin
+$universal-margin-bottom: 20px;
 
 //hero variables
 $hero-height-default: 400px;
@@ -6,21 +8,30 @@ $hero-height-lg: 666px;
 $hero-image-url: url('../img/crowd2.jpg');
 $hero-gradient: linear-gradient(rgba(0, 0, 255, 0.4), rgba(0, 0, 255, 0.4));
 
-//header variables
-$header-font-size: 2.5em;
-$header-font-color: #efefef;
-$header-bold-weight: 600;
+//hero header variables
+$hero-font-size: 2em;
+$hero-font-color: #efefef;
+$hero-bold-weight: 600;
 
-//sub-hero variables
+//sub-hero content variables
+$sub-hero-font-color: #efefef;
 $sub-hero-color: #d1d7ff;
 $sub-hero-height: 200px;
 
-
 //grid variables
 $grid-columns: 12;
+$grid-max-width-md: 720px;
 $grid-max-width: 1200px;
 
-//media query breakpointsgit
+//card variables
+$card-border: solid 1px lightgray;
+$card-box-shadow: 1px 1px 5px #888888;
+$card-display: inline-block;
+$card-text-align: center;
+$card-margin-top: 40px;
+$card-height: 400px;
+
+//media query breakpoints git
 $breakpoint-small: "only screen and (min-width: 550px)";
 $breakpoint-medium: "only screen and (min-width: 768px)";
 $breakpoint-large: "only screen and (min-width: 1000px)";
