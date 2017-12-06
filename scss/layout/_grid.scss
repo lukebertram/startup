@@ -5,9 +5,9 @@
 
 .wrapper:after,
 .row:after {
-      content: "";
-      display: table;
-      clear: both;
+    content: "";
+    display: table;
+    clear: both;
 }
 
 [class*='col-'] {

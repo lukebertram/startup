@@ -18,7 +18,7 @@
       font-size: 0.5em; }
 
 .sub-hero {
-  color: #efefef;
+  color: white;
   width: 100%;
   height: 200px;
   background: #d1d7ff;
@@ -32,6 +32,12 @@
   .sub-hero .search-btn {
     max-width: 140; }
 
+@media screen and (min-width: 500px) {
+  .search-bar {
+    margin-left: 175px; }
+
+  .search-btn {
+    margin-right: 25px; } }
 @media only screen and (min-width: 768px) {
   .hero {
     height: 510px; } }
